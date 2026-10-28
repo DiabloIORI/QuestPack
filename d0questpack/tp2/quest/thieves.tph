@@ -2,23 +2,23 @@ COMPILE EVALUATE_BUFFER ~d0questpack/thieves/dialog0.d~ // Rayic
         ~d0questpack/thieves/dialog1.d~ // Chapter 2
         ~d0questpack/thieves/dialog2.d~ // Chapter 6 for Mae'Var
         ~d0questpack/thieves/dialog3.d~ USING // Chapter 6 for Brega
-        ~%tra_path%/english/thieves.tra~
+        ~%tra_path%/schinese/thieves.tra~
         ~%tra_path%/%LANGUAGE%/thieves.tra~
 
 ADD_JOURNAL @75 @121 @224 USING
-            ~%tra_path%/english/thieves.tra~
+            ~%tra_path%/schinese/thieves.tra~
             ~%tra_path%%LANGUAGE%/thieves.tra~
 
 ADD_JOURNAL TITLE (@583) @357 @358 @359 @363 @364 @365 @366 @367 @368 @369 @370 @371 @372 @373 @374 @375 USING
-            ~%tra_path%/english/thieves.tra~
+            ~%tra_path%/schinese/thieves.tra~
             ~%tra_path%%LANGUAGE%/thieves.tra~
 
 ADD_JOURNAL TITLE (@584) @360 @361 @362 @515 @516 @517 USING
-            ~%tra_path%/english/thieves.tra~
+            ~%tra_path%/schinese/thieves.tra~
             ~%tra_path%%LANGUAGE%/thieves.tra~
 
 ADD_JOURNAL TITLE (@585) @574 @575 USING
-            ~%tra_path%/english/thieves.tra~
+            ~%tra_path%/schinese/thieves.tra~
             ~%tra_path%%LANGUAGE%/thieves.tra~
 
 // REFERENCES TO NIGHT KNIVES
@@ -69,7 +69,7 @@ BUT_ONLY
 // Ghrey IM8
 COMPILE EVALUATE_BUFFER ~d0questpack/thieves/dialog4.d~
         ~d0questpack/thieves/ghrey/j#im8grd.baf~ USING
-        ~%tra_path%/english/thieves.tra~
+        ~%tra_path%/schinese/thieves.tra~
         ~%tra_path%/%LANGUAGE%/thieves.tra~
 
 COPY_EXISTING ~AR0527.are~ ~override~
@@ -154,7 +154,7 @@ BUT_ONLY
 
 ACTION_IF GAME_IS ~tob bgt bg2ee eet~ BEGIN
   COMPILE EVALUATE_BUFFER ~d0questpack/thieves/25dialog0.d~ USING
-          ~%tra_path%/english/thieves.tra~
+          ~%tra_path%/schinese/thieves.tra~
           ~%tra_path%/%LANGUAGE%/thieves.tra~
 
   EXTEND_BOTTOM ~ar5500.bcs~ ~d0questpack/thieves/scripts/et_5500.baf~ EVALUATE_BUFFER
